@@ -1,2 +1,2 @@
-# serverless_application
+# Serverless Application
 Serverless Application Project
