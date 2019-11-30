@@ -3,7 +3,7 @@
  */
 export interface JwtPayload {
   iss: string
-  sub: string
+  sub: string // userId
   iat: number
   exp: number
 }
