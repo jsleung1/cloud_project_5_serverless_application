@@ -70,7 +70,7 @@ export class TodoAccess {
   
   async updateTodo(todoItem: TodoItem): Promise<TodoItem> {
 
-    this.logger.info('updateTodo: ' + JSON.stringify(todoItem) )
+    this.logger.info('updating Todo: ' + JSON.stringify(todoItem) )
 
     await this.docClient.update({
       TableName: this.todosTable,
