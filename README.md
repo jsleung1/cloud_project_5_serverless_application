@@ -7,8 +7,8 @@ Project 5: Serverless Application Project
 - Rubrics:
 https://review.udacity.com/#!/rubrics/2574/view
 
-- Setup:
-Please note the following config.ts in the client in order to test our serverless application:
+## Setup Instructions:
+Please use the following settings in the config.ts of the client in order to test our serverless application:
 ```
 const apiId = 'qbasdfm88e'
 
